@@ -259,7 +259,7 @@ Metrics) server.
 
        metrics:
          remote:
-           url: "https://prometehus.prometheus.svc.cluster.local./api/v1/push"
+           url: "https://prometheus.prometheus.svc.cluster.local./api/v1/push"
            headers:
              X-Scope-OrgID: metamonitoring
    ```
